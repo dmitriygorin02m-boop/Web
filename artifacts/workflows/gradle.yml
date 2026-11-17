@@ -21,7 +21,7 @@ jobs:
 
       - name: Start application
         run: |
-          java -jar artifacts/app-mbank.jar > app.log 2>&1 &
+          java -jar artifacts/app-order.jar > app.log 2>&1 &
           echo $! > app.pid
 
       - name: Build with Gradle
